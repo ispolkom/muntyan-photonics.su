@@ -34,7 +34,7 @@
 в рамках **индивидуального договора**.
 
 **Контакт:**  
-`info@ispolkom.su` | https://muntyan-photonics.su/contact
+`info@ispolkom.su` | https://muntyan-photonics.su
 
 ---
 
