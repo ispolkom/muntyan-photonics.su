@@ -66,4 +66,4 @@ Light exits → the sphere *develops and interprets* the result.
 
 ## © Лицензия / License
 © 2025 **Фёдор Алексеевич Мунтян** / **Fyodor Alekseevich Muntyan**  
-(см. [LICENSE](LICENSE))
+(см. [LICENSE](LICENSE.md))
