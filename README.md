@@ -60,7 +60,7 @@ Light exits → the sphere *develops and interprets* the result.
 ## 📚 Документация / Documentation
 - 🚩 **Русская версия** — [docs/ru.md](docs/ru.md)  
 - 🇬🇧 **English version** — [docs/en.md](docs/en.md)  
-- 📜 **Манифест / Manifest** — [manifest.md](manifest.md)
+- 📜 **Манифест / Manifest** — [manifest.md](MANIFEST.md)
 
 ---
 
