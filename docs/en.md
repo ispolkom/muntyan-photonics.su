@@ -6,7 +6,7 @@
 <img width="1024" height="1024" alt="02" src="https://github.com/user-attachments/assets/35c65346-f800-4454-b3ea-0e03df94265e" />
 
 
-Muntyan's Photon Sphere is a fractal system of nested spheres, each covered by a geodesic grid of pentagons and hexagons. Each figure is a cluster containing photon transceiver nodes. The spheres work as a multi-layered photon neural network, where information is transmitted and received by light — wirelessly and with instant feedback.
+Muntyan's Photon Sphere is a fractal system of nested spheres, each covered by a geodesic grid of pentagons and hexagons. Each figure is a cluster containing photon transceiver nodes. The spheres work as a multi-layered photon neural network, where information is transmitted and received by light — wirelessly and with instant feedback.Shape does not matter — it can be any. What matters is the 3D data exchange principle, not only between layers, but also between adjacent parts — clusters (cells, neurons).
 
 ### 1.1 Architecture and Interconnection
 - Outer layers receive signals from the outside and transmit them inward.
