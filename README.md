@@ -111,14 +111,3 @@
 
 [📑 Манифест концепции и разработки — Manifest of Muntyan’s Photon Sphere](./MANIFEST.md)
 
----
-
-> **Следующий шаг / Next Steps:**  
-> → Симуляция в Python (SymPy + NumPy) / Python simulation (SymPy + NumPy)  
-> → 3D-прототип на прозрачном полимере / 3D prototype in transparent polymer  
-> → Тест на голографическую память / Holographic memory test  
->
-> **Хочешь помочь? / Want to help?**  
-> → [muntyan.photonics.su@gmail.com](mailto:muntyan.photonics.su@gmail.com)
-
----
