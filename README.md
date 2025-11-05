@@ -19,4 +19,4 @@
 [📜 Документ об интеллектуальном праве / Intellectual Property Statement](./INTELLECTUAL_PROPERTY.md)
 
 ## Манифест проекта
-[📑 Манифест концепции и разработки — Manifest of Muntyan’s Photon Sphere](./main/manifest.md)
+[📑 Манифест концепции и разработки — Manifest of Muntyan’s Photon Sphere](./MANIFEST.md)
