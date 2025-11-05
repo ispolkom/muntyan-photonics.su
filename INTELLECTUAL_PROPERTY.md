@@ -51,7 +51,7 @@
 
 **Автор:** Фёдор Алексеевич Мунтян  
 📧 muntyan@muntyan-photonics.su  
-🌐 [muntyan-photonics.su](https://muntyan-photonics.su)
+🌐 [info@muntyan-photonics.su](https://muntyan-photonics.su)
 
 ---
 
