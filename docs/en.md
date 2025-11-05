@@ -2,6 +2,10 @@
 
 ## Part 1 — Geometry and Construction of Spheres
 
+<img width="1024" height="1024" alt="01" src="https://github.com/user-attachments/assets/de32ab37-bbab-4b13-83dc-f150073b7d4d" />
+<img width="1024" height="1024" alt="02" src="https://github.com/user-attachments/assets/35c65346-f800-4454-b3ea-0e03df94265e" />
+
+
 Muntyan's Photon Sphere is a fractal system of nested spheres, each covered by a geodesic grid of pentagons and hexagons. Each figure is a cluster containing photon transceiver nodes. The spheres work as a multi-layered photon neural network, where information is transmitted and received by light — wirelessly and with instant feedback.
 
 ### 1.1 Architecture and Interconnection
@@ -45,14 +49,25 @@ Each sphere functions as an individual neurophoton layer, and their collective s
 ### 2.1 General Cluster Concept
 Each cluster on the surface of the photon sphere represents an intelligent photon node capable of both transmitting and receiving light signals. It serves as an analogy to a biological neuron, simultaneously acting as a source, receiver, and processor of photon information. Clusters are arranged at the vertices of pentagons and hexagons, forming a continuous communication network. The entire surface of the sphere is an active computational shell, where each node interacts with neighboring nodes and the layers above and below.
 
-### 2.2 Structure and Components of the Cluster
-Each cluster consists of:
-- **VCSEL lasers** — miniature vertical lasers emitting coherent light inward and outward from the sphere.
-- **Photodetectors (PIN/APD diodes)** — detecting incoming signals from neighboring clusters and spheres.
-- **Microlenses and optical prisms** — focusing and redirecting light beams.
-- **Microcontroller or ASIC** — controlling synchronization, frequency, and phase.
-- **Nanopower (micro-energy system)** — photon recharge from internal lighting or capacitor cells.
-- **Photon filters** — separating wavelengths for different communication directions.
+Each cluster consists of:  
+• **VCSEL lasers** — miniature vertical lasers emitting coherent light inward and outward from the sphere;  
+• **Photodetectors (PIN/APD diodes)** — detecting incoming signals from neighboring clusters and spheres;  
+• **Microlenses and optical prisms** — focusing and redirecting beams;  
+• **Microcontroller or ASIC** — controlling synchronization, frequency, and phase;  
+• **Nanopower (micro-energy system)** — photon recharge from internal illumination or capacitor cells;  
+• **Photon filters** — separating wavelengths for different communication directions.
+
+💾 **Optional: Photonic data-storage mode.**  
+The cluster’s hexagonal body is **hollow** and hosts **sleeves** for emitters and receivers, forming a micro-resonator cavity.  
+Information is encoded by **phase, frequency, and intensity** of light, turning the cluster into a **photon “SSD-chip”** where each optical channel acts as a high-dimensional memory cell.  
+Clusters can be tiled into arrays to build **3D, non-volatile optical storage** with in-place read/write by light.
+
+<img width="1024" height="1024" alt="8" src="https://github.com/user-attachments/assets/561c109e-a61c-4cfd-a0c3-038d4d176520" />
+<img width="1024" height="1024" alt="03" src="https://github.com/user-attachments/assets/0ac8e960-ff4e-4ef6-ab7e-928c08fc3e3c" />
+<img width="1024" height="1024" alt="06" src="https://github.com/user-attachments/assets/e794551c-06f5-4ce5-b481-90debb9eede3" />
+<img width="1024" height="1024" alt="05" src="https://github.com/user-attachments/assets/59954292-0e8a-422f-8a32-de18a39ffde0" />
+
+
 
 ### 2.3 Communication Channels and Flow Directions
 Each cluster supports several types of optical channels:
