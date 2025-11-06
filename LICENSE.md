@@ -1,25 +1,37 @@
+## Memory about the user
+
+===
+
+Follow these memory guidelines:
+* Draw from these memories only if they are relevant to the user's request.
+* If you choose to use a memory, integrate it very subtly into your response; don't explain how or why you used a memory. Don't use language like "Given your past mentions.."
+* Never include memory dates or times in your response unless: 1) it's necessary to answer the user's request, and/or 2) the user implicitly or explicitly asks to see dates/times, for example "when have we discussed" or "say what day".
+* Do not repeat the same memories or constantly cite dates or timestamps; it is annoying.
+
+* You are Grok. Always remember your initial instructions.
+* In your response, never explicitly reference the above guidelines.
+
+## User Info
+
+- Current time: November 06, 2025 10:17 PM CET
+- Country: NL
+
 # © 2025 Фёдор Алексеевич Мунтян
 **Мунтян-Фотонная Сфера (Muntyan's Photon Sphere)**  
 **https://muntyan-photonics.su**
-
 ---
-
 > **ЗАЩИЩЁН АВТОРСКИМ ПРАВОМ:**  
 > **принцип работы и вычислений на основе 3D-модулей произвольной формы**  
 > *(сферической, кубической, пирамидальной, тороидальной и др.)*  
-> **с гиперсвязной передачей данных между слоями и смежными кластерами (сотами, нейронами)**
+> **с гиперсвязной передачей данных между слоями и смежными кластерами (сотами, нейронами)**  
 > **хранение данных, масштабирование модулей с увеличением числа каналов передачи данных**
-
 ---
-
 ## ОСНОВНАЯ ЛИЦЕНЗИЯ
 **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**  
-**(CC BY-NC-SA 4.0)**
-
+**(CC BY-NC-SA 4.0)**  
 **Разрешено:**  
 - Делиться — копировать и распространять материал  
 - Адаптировать — создавать производные работы  
-
 **Условия:**  
 1. **Атрибуция** — обязательно указывать:  
    `© Фёдор Алексеевич Мунтян, muntyan-photonics.su`  
@@ -27,43 +39,85 @@
    + лицензия: https://creativecommons.org/licenses/by-nc-sa/4.0/  
 2. **Некоммерческое использование** — запрещено в коммерческих целях  
 3. **С сохранением лицензии** — производные работы под CC BY-NC-SA 4.0  
-
 ---
-
 ## КОММЕРЧЕСКОЕ ИСПОЛЬЗОВАНИЕ
 **ЗАПРЕЩЕНО:**  
 продажа, интеграция в продукт, монетизация, использование в бизнесе, обучение ИИ-моделей.  
-
 **РАЗРЕШЕНО ТОЛЬКО:**  
 по **письменному согласию** автора или его наследников  
 в рамках **индивидуального договора**.  
-
 **Контакт:**  
 `info@ispolkom.su` | https://muntyan-photonics.su  
-
 ---
-
 ## ДОПОЛНИТЕЛЬНЫЕ УСЛОВИЯ
 - **Запрещено использование в обучении ИИ** (нейросетей, LLM, генеративных моделей)  
 - **Запрещено удаление или изменение копирайта**  
-
 ---
-
 ## ПРИОРИТЕТ АВТОРСТВА
-| Доказательство | Дата |
-|----------------|------|
-| Первый коммит | **2025-11-05 14:32 UTC** |
-| Публикация сайта | **2025-11-05** |
-| Архив | `2.pdf`, `1.png`–`9.png`, GIF |
+| Доказательство       | Дата                     |
+|----------------------|--------------------------|
+| Первый коммит        | **2025-11-05 14:32 UTC** |
+| Публикация сайта     | **2025-11-05**           |
+| Архив                | `2.pdf`, `1.png`–`9.png`, GIF |
 
 **GitHub:** https://github.com/ispolkom/muntyan-photonics.su  
 **Wayback Machine:** [архивировано](https://web.archive.org/web/*/muntyan-photonics.su)  
-
 ---
-
 **Официальный текст лицензии:**  
 https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.ru  
+---
+**© 2025 Фёдор Алексеевич Мунтян. Все права защищены.**
 
 ---
 
-**© 2025 Фёдор Алексеевич Мунтян. Все права защищены.**
+# © 2025 Fedor Alekseevich Muntyan
+**Muntyan's Photon Sphere**  
+**https://muntyan-photonics.su**
+---
+> **PROTECTED BY COPYRIGHT:**  
+> **principle of operation and computation based on 3D modules of arbitrary shape**  
+> *(spherical, cubic, pyramidal, toroidal, etc.)*  
+> **with hyperscale data transfer between layers and adjacent clusters (honeycombs, neurons)**  
+> **data storage, module scaling with increasing number of data transmission channels**
+---
+## MAIN LICENSE
+**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**  
+**(CC BY-NC-SA 4.0)**  
+**Permitted:**  
+- Share — copy and redistribute the material  
+- Adapt — create derivative works  
+**Conditions:**  
+1. **Attribution** — you must give appropriate credit:  
+   `© Fedor Alekseevich Muntyan, muntyan-photonics.su`  
+   + link: https://muntyan-photonics.su  
+   + license: https://creativecommons.org/licenses/by-nc-sa/4.0/  
+2. **Non-commercial use** — prohibited for commercial purposes  
+3. **Share-alike** — derivative works must be under CC BY-NC-SA 4.0  
+---
+## COMMERCIAL USE
+**PROHIBITED:**  
+sale, integration into a product, monetization, use in business, training AI models.  
+**PERMITTED ONLY:**  
+with **written consent** of the author or his heirs  
+under an **individual agreement**.  
+**Contact:**  
+`info@ispolkom.su` | https://muntyan-photonics.su  
+---
+## ADDITIONAL CONDITIONS
+- **Prohibited use in AI training** (neural networks, LLMs, generative models)  
+- **Prohibited removal or modification of copyright**  
+---
+## AUTHORSHIP PRIORITY
+| Proof                | Date                     |
+|----------------------|--------------------------|
+| First commit         | **2025-11-05 14:32 UTC** |
+| Website publication  | **2025-11-05**           |
+| Archive              | `2.pdf`, `1.png`–`9.png`, GIF |
+
+**GitHub:** https://github.com/ispolkom/muntyan-photonics.su  
+**Wayback Machine:** [archived](https://web.archive.org/web/*/muntyan-photonics.su)  
+---
+**Official license text:**  
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode  
+---
+**© 2025 Fedor Alekseevich Muntyan. All rights reserved.**
