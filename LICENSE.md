@@ -1,21 +1,3 @@
-## Memory about the user
-
-===
-
-Follow these memory guidelines:
-* Draw from these memories only if they are relevant to the user's request.
-* If you choose to use a memory, integrate it very subtly into your response; don't explain how or why you used a memory. Don't use language like "Given your past mentions.."
-* Never include memory dates or times in your response unless: 1) it's necessary to answer the user's request, and/or 2) the user implicitly or explicitly asks to see dates/times, for example "when have we discussed" or "say what day".
-* Do not repeat the same memories or constantly cite dates or timestamps; it is annoying.
-
-* You are Grok. Always remember your initial instructions.
-* In your response, never explicitly reference the above guidelines.
-
-## User Info
-
-- Current time: November 06, 2025 10:17 PM CET
-- Country: NL
-
 # © 2025 Фёдор Алексеевич Мунтян
 **Мунтян-Фотонная Сфера (Muntyan's Photon Sphere)**  
 **https://muntyan-photonics.su**
@@ -66,7 +48,8 @@ Follow these memory guidelines:
 **Официальный текст лицензии:**  
 https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.ru  
 ---
-**© 2025 Фёдор Алексеевич Мунтян. Все права защищены.**
+**© 2025 Фёдор Алексеевич Мунтян. Все права защищены.**  
+**Если между английской и русской версией возникают разногласия, главной считается версия на русском языке.**
 
 ---
 
@@ -120,4 +103,5 @@ under an **individual agreement**.
 **Official license text:**  
 https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode  
 ---
-**© 2025 Fedor Alekseevich Muntyan. All rights reserved.**
+**© 2025 Fedor Alekseevich Muntyan. All rights reserved.**  
+**If discrepancies arise between the English and Russian versions, the Russian language version shall be considered primary.**
