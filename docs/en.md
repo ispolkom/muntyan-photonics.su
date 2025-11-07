@@ -1,442 +1,350 @@
-# Muntyan’s Photon Sphere
+# MUNTYAN’S PHOTON SPHERE
 
-## Part 1 — Geometry and Construction of Spheres
+**Part 1 — Geometry and Construction of Layers**
+© 2025 Fyodor Alekseyevich Muntyan
+🌐 muntyan-photonics.su
+💾 github.com/ispolkom/muntyan-photonics.su
 
-<img width="1024" height="1024" alt="01" src="https://github.com/user-attachments/assets/de32ab37-bbab-4b13-83dc-f150073b7d4d" />
-<img width="1024" height="1024" alt="02" src="https://github.com/user-attachments/assets/35c65346-f800-4454-b3ea-0e03df94265e" />
+![01](https://github.com/user-attachments/assets/a364628a-3615-485d-ba64-f7ff9e6453dd)
+![02](https://github.com/user-attachments/assets/e65173ea-4e57-4687-b09a-6bdd928fc0dc)
 
+## 1. General Structure
 
-Muntyan's Photon Sphere is a fractal system of nested spheres, each covered by a geodesic grid of pentagons and hexagons. Each figure is a cluster containing photon transceiver nodes. The spheres work as a multi-layered photon neural network, where information is transmitted and received by light — wirelessly and with instant feedback.Shape does not matter — it can be any. What matters is the 3D data exchange principle, not only between layers, but also between adjacent parts — clusters (cells, neurons).
+Muntyan’s Photon Sphere is a fractal system of nested layers. Each layer is tiled by a geodesic grid of pentagons and hexagons; each polygon hosts a **cluster** — a bidirectional photonic transceiver node. The layers operate as a multi‑layer photonic neural network: information is transmitted and received with light — wirelessly — with near‑instant feedback.
 
-### 1.1 Architecture and Interconnection
-- Outer layers receive signals from the outside and transmit them inward.
-- Inner layers simultaneously receive and send data outward.
-- Each sphere forms bidirectional photon channels, and each cluster is connected to neighboring ones, creating a spatial network for data transmission.
-- Light flows can be both coherent lasers and scattered spectral signals.
+> **The shape is not constrained to a perfect sphere.** Ellipsoids, **cubes**, **pyramids**, icosahedral shells, and other polyhedra are valid embodiments. The **principle** is the same: true **3D data exchange** both **between layers** and **between adjacent surface clusters**.
 
-### 1.2 General Geometry Illustration
-The illustration shows multi-layered spheres, each consisting of hundreds of pentagonal and hexagonal clusters. Red rays symbolize optical transmission channels between layers.
+### 1.1 Architecture and Coupling
+
+* Outer layers receive external signals and relay them inward.
+* Inner layers simultaneously receive and emit outward.
+* Each layer forms bidirectional photonic channels; each cluster links to neighbors, creating a spatial information network.
+* Light flows may be coherent (lasers) or spectrally distributed, polarized, or diffuse.
+
+### 1.2 Illustration
+
+The illustrations show multilayer shells composed of hundreds of pentagonal and hexagonal clusters. Red rays symbolize inter‑layer optical channels.
 
 ### 1.3 Geometry and Cluster Density
 
-| Sphere Level | Radius (cm) | Number of Clusters (≈) | Number of Connections | Function |
-| ------------- | ----------- | ---------------------- | --------------------- | ------- |
-| 1             | 1           | 60                     | ~300                  | Central node, inward transmission |
-| 2             | 2           | 240                    | ~1200                 | Signal processing |
-| 3             | 4           | 900                    | ~5400                 | Summing and filtering |
-| 4             | 8           | 3600                   | ~21600                | Transformation and routing |
-| 5             | 16          | 14400                  | ~86400                | External reception/transmission |
+| Level | Radius (cm) | Clusters (≈) | Links (≈) | Function                   |
+| ----: | ----------: | -----------: | --------: | -------------------------- |
+|     1 |           1 |           60 |      ~300 | Central node, inward relay |
+|     2 |           2 |          240 |     ~1200 | Signal processing          |
+|     3 |           4 |          900 |     ~5400 | Summation & filtering      |
+|     4 |           8 |         3600 |    ~21600 | Transform & routing        |
+|     5 |          16 |        14400 |    ~86400 | External I/O               |
 
-### 1.4 Cluster Growth Formula
-The number of clusters \( N_k \) on a sphere with radius \( r \) is approximated by:
-\[
-N_k = 12 + 10 \left( \frac{r}{r_0} \right)^2
-\]
-where \( r_0 = 1 \text{ cm} \) — the radius of the first sphere. This formula describes the geometric increase in node density as the radius grows. 
+### 1.4 Cluster Growth Law
 
-This formula is inspired by the geometry of fullerenes, where 12 pentagons ensure curvature, and hexagons allow for growth. In practice, this allows modeling the sphere in CAD programs like Blender for 3D visualization.
+The approximate number of clusters (N_k) on a layer of radius (r):
+
+[
+N_k = 12 + 10\left(\frac{r}{r_0}\right)^2
+]
+
+with (r_0 = 1,\text{cm}) (the first layer). Inspired by fullerene geometry: twelve pentagons supply curvature; hexagons scale area. Useful for procedural CAD/3D layouts (e.g., Blender).
 
 ### 1.5 Materials and Construction
-- **Frame**: Carbon fiber or ceramics with low thermal expansion.
-- **Coating**: Dielectric mirror with reflectance > 0.98.
-- **Clusters**: Micro-lasers (VCSEL) + photodetectors (PIN/APD).
-- **Mounting**: Coaxial suspension ensuring centering and 1–3 mm gap between layers.
 
-Each sphere functions as an individual neurophoton layer, and their collective structure forms a self-organizing computational system in three dimensions.
+* **Frame:** carbon fiber or low‑CTE ceramics.
+* **Coatings:** dielectric mirrors with reflectivity (R > 0.98).
+* **Clusters:** VCSEL micro‑lasers + photodetectors (PIN/APD).
+* **Mounting:** coaxial suspension, 1–3 mm gap between layers.
 
-## Part 2 — Clusters and Their Structure
+> Each layer functions as an individual neuro‑photonic layer; together they form a self‑organizing 3D computing structure.
 
-### 2.1 General Cluster Concept
-Each cluster on the surface of the photon sphere represents an intelligent photon node capable of both transmitting and receiving light signals. It serves as an analogy to a biological neuron, simultaneously acting as a source, receiver, and processor of photon information. Clusters are arranged at the vertices of pentagons and hexagons, forming a continuous communication network. The entire surface of the sphere is an active computational shell, where each node interacts with neighboring nodes and the layers above and below.
+### 1.6 Photonic “Light Gap” and Mirror Boundaries (new)
 
-Each cluster consists of:  
-• **VCSEL lasers** — miniature vertical lasers emitting coherent light inward and outward from the sphere;  
-• **Photodetectors (PIN/APD diodes)** — detecting incoming signals from neighboring clusters and spheres;  
-• **Microlenses and optical prisms** — focusing and redirecting beams;  
-• **Microcontroller or ASIC** — controlling synchronization, frequency, and phase;  
-• **Nanopower (micro-energy system)** — photon recharge from internal illumination or capacitor cells;  
-• **Photon filters** — separating wavelengths for different communication directions.
+**Concept:** fill the inter‑layer space with sunlight (or internal light) and **retain** it via **mirror‑coated inner and outer surfaces** on every layer.
 
-💾 **Optional: Photonic data-storage mode.**  
-The cluster’s hexagonal body is **hollow** and hosts **sleeves** for emitters and receivers, forming a micro-resonator cavity.  
-Information is encoded by **phase, frequency, and intensity** of light, turning the cluster into a **photon “SSD-chip”** where each optical channel acts as a high-dimensional memory cell.  
-Clusters can be tiled into arrays to build **3D, non-volatile optical storage** with in-place read/write by light.
+**Effect:** a closed **interference field** of standing waves emerges. It:
 
-<img width="1024" height="1024" alt="8" src="https://github.com/user-attachments/assets/561c109e-a61c-4cfd-a0c3-038d4d176520" />
-<img width="1024" height="1024" alt="03" src="https://github.com/user-attachments/assets/0ac8e960-ff4e-4ef6-ab7e-928c08fc3e3c" />
-<img width="1024" height="1024" alt="06" src="https://github.com/user-attachments/assets/e794551c-06f5-4ce5-b481-90debb9eede3" />
-<img width="1024" height="1024" alt="05" src="https://github.com/user-attachments/assets/59954292-0e8a-422f-8a32-de18a39ffde0" />
+* acts as **volumetric wave‑based memory** (the pattern *is* the recorded state),
+* enables **photonic energy recirculation** (part of the field is harvested by cluster photodiodes),
+* enhances **phase coherence** through multiple reflections.
 
+**Conditions:** high (R), spectral separation of channels, phase sync via a global optical timebase.
 
+---
 
-### 2.3 Communication Channels and Flow Directions
-Each cluster supports several types of optical channels:
+## Part 2 — Clusters and Their Device
 
-| Channel Type | Direction      | Purpose                 | Wavelength Range     |
-|--------------|----------------|-------------------------|----------------------|
-| Radial       | Inward/Outward | Inter-layer transmission | 405–650 nm           |
-| Tangential   | Surface        | Communication with neighboring clusters | 520–560 nm          |
-| Resonant     | Reflected Waves | Phase stabilization and feedback | 850–950 nm         |
+### 2.1 Cluster Concept
 
-This organization creates an optical multi-layer network, akin to an electrical bus, but without conductors. Light travels between spheres at a speed of less than 10⁻⁸ s per layer, ensuring ultra-fast processing.
+Each cluster is an intelligent photonic node — **emitter + receiver + local controller**. Clusters are placed at pentagon/hexagon vertices, forming a continuous computing skin where nodes interact with neighbors and with upper/lower layers.
 
-### 2.4 Bidirectional Operation and Feedback
-Each cluster is capable of simultaneously receiving and transmitting information, providing a "living connection" between elements. Spectral separation and phase modulation are used for this.
+### 2.2 Cluster Elements
 
-Types of interaction:
-- Between inner and outer layers (radial connection)
-- Between neighboring clusters (topological connection)
-- Through reflections and interference (wave memory)
+* **VCSEL lasers** — emission inward/outward.
+* **Photodetectors (PIN/APD)** — capture from neighboring clusters and layers.
+* **Micro‑lenses/prisms** — focusing and beam steering.
+* **Microcontroller/ASIC** — timing, frequency, phase control.
+* **Nano‑power** — optical energy harvesting, micro‑capacitor cells.
+* **Photonic filters** — spectral isolation of directions.
 
-### 2.5 Neural Interaction Principle
-Each cluster functions as an optical neuron. Its state is determined by the intensity, phase, and spectrum of light coming from other clusters. The output emission depends on the collective response of the system — analogous to a weighted activation function in a neural network.
+**Optical Storage (optional):** the hexagonal “sleeve” geometry forms a micro‑resonator cavity; data is encoded by **phase/frequency/intensity**. The cluster is akin to a **photonic SSD**, each channel a high‑dimensional cell. Arrays yield **3D non‑volatile** photonic memories.
 
-Clusters "learn" by adjusting laser amplification coefficients and filters, creating a photon-based self-learning environment. The feedback signals traveling through multi-layered paths serve as gradient descent in physical form.
+![08](https://github.com/user-attachments/assets/4bb7ba52-f12f-49e2-919b-cb18eb8b75f5)
+![03](https://github.com/user-attachments/assets/55f7be24-4f5b-4eed-a1c2-421fdcf890e8)
 
-**Analogy with biology:** Just as neurons form networks in the brain, clusters create an "optical connectome." There is potential for emulating consciousness through emergent properties.
+> Emitters and receivers are arranged to support radial and tangential channels, including on‑surface inter‑cluster links.
 
-💡 Each cluster is a miniature neuron interacting with all directions of space: forward, backward, and along the surface of the sphere.
+### 2.3 Channels and Flow Directions
 
-## Part 3 — Bidirectional Connection Principle
+| Channel type | Direction       | Purpose                | Wavelengths |
+| ------------ | --------------- | ---------------------- | ----------- |
+| Radial       | Inward/Outward  | Inter‑layer transfer   | 405–650 nm  |
+| Tangential   | Along surface   | Neighbor cluster links | 520–560 nm  |
+| Resonant     | Reflected waves | Phase lock & feedback  | 850–950 nm  |
 
-### 3.1 Core Idea of Bidirectional Connection
-Bidirectional photon connection is the key principle of the entire sphere. Each cluster can simultaneously emit and receive light, creating a closed system of reverse optical channels. This ensures constant correction, synchronization, and data transmission between all levels.
+> Crossing one layer takes (<10^{-8},\text{s}), yielding **picosecond**‑scale responses.
 
-The light emitted by one cluster can be received by:
-- Neighboring clusters on the same sphere (topological transmission)
-- Clusters in the inner sphere (radial transmission inward)
-- Clusters in the outer sphere (radial transmission outward)
+### 2.4 Bidirectionality and Feedback
 
-### 3.2 Signal Transmission
-Transmission occurs with coherent light (VCSEL lasers) and scattered polarized light. Each cluster encodes a signal using three parameters:
-- Amplitude (A) — impulse strength
-- Phase (φ) — relative wave displacement
-- Wavelength (λ) — communication channel or type of information
+Spectral division + phase modulation. Interactions:
 
-The combination of these parameters creates an optical code, similar to a digital packet, but with billions of states per unit of time.
+* **radial** (between layers),
+* **topological** (between neighbors),
+* **resonant** (via reflections/interference — **wave memory**).
 
-### 3.3 Signal Reception
-Photodetectors record incoming pulses from various directions. The system uses phase selection and spectral channel separation to distinguish where the signal came from and reconstruct its structure.
+### 2.5 Optical‑Neuron Analogy
 
-Filtering occurs at the level of photon particles — no electronic circuits are required. One cluster can process up to 10⁶ light events per second with zero heat loss.
+Cluster state is set by (A,,\varphi,,\lambda). The output depends on the network’s superposed response (weighted activation analog). Learning arises via gain/filter adaptation. Multilayer feedback paths realize a **physical gradient‑descent analog** and build an optical **connectome**.
+
+---
+
+## Part 3 — Principle of Bidirectional Linking
+
+### 3.1 Idea
+
+Each cluster concurrently emits and receives, closing optical feedback loops across layers. The result is continuous correction, synchronization, and information transfer at all levels.
+
+### 3.2 Transmission
+
+Coherent VCSEL beams plus polarized diffuse light. Encoding: **amplitude** (A), **phase** (\varphi), **wavelength** (\lambda). An optical “packet” hosts a continuum of states.
+
+### 3.3 Reception
+
+Photodetectors with phase sampling and spectral isolation reconstruct direction and structure. Processing occurs at the **photon level** (no electronic heat path). Throughput per cluster: up to (10^6) light events/s with negligible heat.
 
 ### 3.4 Feedback and Stabilization
-Reflected signals from internal spheres create a resonant optical field. Waves passing through the system repeatedly interfere, forming stable standing wave patterns. These patterns are the physical embodiment of information and system state.
 
-Feedback is divided into two levels:
-- Local — synchronization between nearby clusters
-- Global — phase alignment across all layers of the sphere
+Reflections from the layered shells create a **resonant optical field**. Standing patterns are the **physical embodiment of information**. Stabilization operates at two scales:
 
-As a result, the system self-adjusts and stabilizes, maintaining coherence without external control.
+* **local** (neighbor‑to‑neighbor),
+* **global** (across layers).
 
 ### 3.5 Interference and Wave Memory
-When multiple light streams intersect, interference occurs — a physical realization of matrix multiplication. Each point in space becomes a computational node, where light intensity corresponds to the neural response value. Interference patterns are stored and serve as optical memory. This memory does not require energy for storage and is updated automatically when signals change.
 
-### 3.5 Interference and Wave Memory
-When multiple light streams intersect, interference occurs — a physical realization of matrix multiplication. Each point in space becomes a computational node, where light intensity corresponds to the neural response value. Interference patterns are stored and serve as optical memory. This memory does not require energy for storage and is updated automatically when signals change.
+Intersecting beams produce interference — a physical matrix‑multiplication analog. Every point in space becomes a compute node whose intensity corresponds to neural activation. Patterns are persistent and update automatically with new inputs.
 
 ---
 
-### Part 4 — Optical Characteristics and Performance Parameters
+## Part 4 — Optical Characteristics and Operating Parameters
 
-#### 4.1 Wavelength Ranges and Channel Distribution
-The Photon Sphere operates in a broad range of wavelengths — from near ultraviolet to infrared. The separation by frequency ensures independence of channels and eliminates cross-interference.
+### 4.1 Spectral Bands and Channel Map
 
-| Channel Purpose         | Wavelength Range   | Emitter Type              | Average Power |
-|-------------------------|--------------------|---------------------------|---------------|
-| Internal transmission (inward) | 400–470 nm         | Blue lasers (GaN)          | 5 mW          |
-| External transmission (outward) | 630–690 nm         | Red lasers (AlGaInP)       | 10 mW         |
-| Surface inter-cluster connections | 520–560 nm         | Green lasers (Nd:YAG)      | 3 mW          |
-| Service synchronization channels | 850–950 nm         | Infrared VCSELs            | 2 mW          |
+| Function                    | Wavelength band | Source         | Avg power |
+| --------------------------- | --------------- | -------------- | --------: |
+| Inward transfer (to center) | 400–470 nm      | Blue (GaN)     |      5 mW |
+| Outward transfer            | 630–690 nm      | Red (AlGaInP)  |     10 mW |
+| Surface inter‑cluster       | 520–560 nm      | Green (Nd:YAG) |      3 mW |
+| Service synchronization     | 850–950 nm      | IR VCSEL       |      2 mW |
 
-This distribution allows each sphere and cluster to operate independently while maintaining coherence across the spectrum.
+### 4.2 Flux Density and Load
 
-#### 4.2 Optical Flux Density and Energy Load
-The average optical flux density for a single cluster does not exceed 10 mW/cm², ensuring stable operation without overheating. Under full load of the entire system (10 spheres), the total flux density reaches 1 W/cm², which corresponds to a computational power of about 10¹² operations per second with less than 10 W of energy consumption.
+Average optical flux per cluster (<10,\text{mW}/\text{cm}^2). With ~10 layers, system‑level flux reaches ~**1 W/cm²**, supporting ~**10¹² ops/s** at **<10 W** electrical input.
 
-The Photon Sphere operates without traditional cooling — excess heat is dissipated through radiation and reflection.
+### 4.3 Coherence and Phase Sync
 
-#### 4.3 Coherence and Phase Synchronization
-Each laser in the system is synchronized with a reference signal from the central sphere. The phase drift between layers does not exceed 10 picoseconds, and local inter-cluster connections are stabilized through resonant reflections. Synchronization is achieved using a photon clock field — standing waves passing through the center of the system, aligning the phases of all sources.
+All lasers lock to a global optical timebase from the central layer. Inter‑layer phase drift (<10,\text{ps}). Local links are stabilized by resonant reflections.
 
-This ensures coherence is maintained even with multiple reflections and the multi-layer structure.
+### 4.4 Latencies
 
-#### 4.4 Temporal Delays and Response
-Data transmission between neighboring spheres occurs at speeds close to the speed of light. The average delay:
-- Inter-layer (radial) — up to 30 picoseconds
-- Inter-cluster (topological) — up to 10 picoseconds
+* **Inter‑layer (radial):** up to **30 ps**
+* **Inter‑cluster (tangential):** up to **10 ps**
 
-Thus, interaction between any two points in the structure happens instantaneously on a macroscopic level.
+### 4.5 Energy Efficiency (Indicative)
 
-#### 4.5 Energy Efficiency and Efficiency Coefficient
-The efficiency coefficient for the Photon Sphere is:
-\[
-\eta = \frac{P_{useful}}{P_{input}} = 0.95
-\]
-The main losses occur due to scattering and reflection of light at inter-layer boundaries. Thanks to the absence of Joule losses, the energy efficiency exceeds modern GPUs and TPUs by 50–100 times.
+(\eta = P_{useful}/P_{input} \approx 0.95). With no Joule losses, efficiency outperforms GPUs/TPUs by **50–100×** on comparable workloads.
 
-#### 4.6 Photon Noise and Noise Immunity
-The use of multi-spectral channels and phase synchronization makes the system resilient to noise. Interference effects do not disrupt operations; rather, they form photon memory — optical patterns that store stable states.
+### 4.6 Noise Immunity
 
-💡 The optical parameters of the Photon Sphere provide high performance with record-low energy consumption, making the technology suitable for AI accelerators, data centers, and autonomous computing systems.
+Multispectral channels + phase locking provide robustness to noise. Interference patterns themselves serve as **wave memory**.
 
 ---
 
-### Part 5 — Inter-cluster Interactions
+## Part 5 — Inter‑Cluster Interactions
 
-#### 5.1 General Interaction Scheme
-Inter-cluster interactions form the basis of the "brain" of the Photon Sphere. Each cluster not only transmits and receives signals but also participates in their processing by analyzing the intensity, phase, and frequency of incoming waves. Connections between clusters are divided into three types:
+### 5.1 Scheme of Interactions
 
-| Interaction Type         | Description                           | Primary Goal                     |
-|--------------------------|---------------------------------------|----------------------------------|
-| Local (topological)       | Between neighboring clusters on the same sphere | Synchronization and signal correlation |
-| Radial (hierarchical)     | Between spheres                       | Transmission of information between system layers |
-| Resonant (reverse)        | Through reflected waves and interference | Maintaining coherence and memory |
+Three tiers of links:
 
-This three-level organization creates a self-adaptive photon neural network capable of learning and self-regulation.
+* **Local (topological):** same layer; synchronization/correlation.
+* **Radial (hierarchical):** between layers; bulk transfer.
+* **Resonant (feedback):** via reflections; coherence & memory.
 
-#### 5.2 Phase Agreement Algorithm
-To maintain coherence, the system uses a photon-based phase agreement protocol:
-1. Each cluster measures the phase and amplitude of incoming waves.
-2. The deviation from the synchronous state is determined.
-3. The cluster’s microcontroller adjusts the phase of its laser.
-4. The updated signal is transmitted to neighboring clusters.
+### 5.2 Phase‑Lock Protocol
 
-This cycle repeats millions of times per second, ensuring continuous synchronization across the entire structure. As a result, the system maintains phase equilibrium, minimizing energy losses.
+1. Measure incoming phase/amplitude. 2) Compute deviation from in‑phase. 3) Adjust emitter phase. 4) Re‑transmit. The loop runs at MHz rates, maintaining low‑loss equilibrium.
 
-#### 5.3 Self-adaptation and Learning
-The Photon Sphere has the property of self-learning. Each cluster adjusts its emission parameters (intensity, frequency, polarization) based on the responses from the network. This allows:
-- Compensation for failures and losses
-- Load redistribution between layers
-- Formation of new data transmission paths
-- Improved processing accuracy without external intervention
+### 5.3 Self‑Adaptation and Learning
 
-Over time, the structure "remembers" stable states and patterns, forming an analogue of photon-based intelligence.
+Clusters adapt intensity/frequency/polarization to compensate faults, redistribute load, open new paths, and refine accuracy — forming stable patterns (optical intelligence).
 
-#### 5.4 Wave Memory
-Information about past states of the system is stored in the form of interference patterns inside the spheres. These patterns are standing waves, fixed due to coherence and continuous resonance. Each such wave configuration is a "record" in photon memory, which can be read by amplifying a certain frequency range.
+### 5.4 Wave Memory
 
-This memory requires no energy for storage and is naturally updated when signals change.
+Standing waves in volume = non‑volatile record. Readout by selective amplification at target (\lambda). Memory refreshes naturally as inputs evolve.
 
-#### 5.5 Topology of Connections and Stability
-The overall structure of interactions resembles a multi-layered neural graph, where each node is connected to dozens of others, and information flows simultaneously in many directions. Even if some nodes are lost, the system continues functioning, thanks to self-restoring connections. This structure makes the Photon Sphere resilient to physical damage, noise, and overloads, transforming it into a self-regulating coherent network.
+### 5.5 Topology and Resilience
 
-💡 Inter-cluster interactions create the physical form of intelligence inside the sphere — a dynamic field of coherent waves where information is propagated, stored, and processed in real time.
+A multilayer neural‑graph with high connectivity; partial node loss does not collapse operation due to self‑healing paths.
 
 ---
 
-### Part 6 — Energy and Efficiency
+## Part 6 — Energy and Efficiency
 
-#### 6.1 General Principles of Power Supply
-The Photon Sphere does not require traditional electrical power for computational processes. The main energy costs are associated with the lasers (VCSELs), synchronization systems, and stabilization of sphere positions. By directly converting light into information, energy consumption is minimal. Each cluster uses its own photon microgenerator — part of the light it receives is redirected to photodetectors, creating internal energy recovery. This ensures a self-sustaining cycle of operation.
+### 6.1 Power Principles
 
-#### 6.2 Energy Distribution Between Spheres
-Energy is distributed radially: external spheres receive power from the outside, while internal ones obtain it by intercepting part of the light flow. Each sphere has its own energy balance \( E_i \), described by the formula:
-\[
-E_i = E_{i-1} \cdot (1 - k_d) + P_{rec}
-\]
-where \( k_d \) is the scattering coefficient, and \( P_{rec} \) is the power returned by the recovery system. Optimal values:
-\( k_d = 0.05 \), \( P_{rec} = 0.1E_{i-1} \) → efficiency ≈ 95% energy retention between layers.
+Primary costs: VCSELs, synchronization, layer stabilization. Direct light‑to‑information conversion minimizes consumption. Clusters use **photonic recirculation** (field → photodiodes), creating a quasi‑autarkic cycle.
 
-#### 6.3 Heat Dissipation and Cooling
-Unlike silicon chips, the Photon Sphere generates almost no heat. Cooling is accomplished naturally:
-- By emitting infrared waves into space
-- Through convection via microchannels in the sphere’s frame
-- By controlled reflection (regulation of albedo coating)
+### 6.2 Radial Energy Balance
 
-Even under peak load, the temperature does not exceed 40°C, making the system suitable for continuous operation in a confined space without active cooling.
+[
+E_i = E_{i-1}(1 - k_d) + P_{rec}; ,\quad k_d \approx 0.05,; P_{rec} \approx 0.1E_{i-1} \Rightarrow \text{efficiency} \sim 95%.
+]
 
-#### 6.4 Comparative Efficiency Table
-| Parameter               | GPU (2025)       | TPU v5          | Photon Sphere Muntyan |
-|-------------------------|------------------|-----------------|-----------------------|
-| Energy per operation (MAC) | 100 pJ          | 10 pJ           | 0.1 pJ                |
-| Operation density         | 10¹²/s          | 10¹³/s          | 10¹⁵/s                |
-| Energy consumption        | 300 W           | 200 W           | <10 W                 |
-| Heat dissipation          | High            | Medium          | Minimal (<40°C)       |
-| Cooling requirement       | Required        | Required        | Not required          |
-| Calculation type          | Electronic      | Electron-optical| Purely photonic       |
+### 6.3 Thermal Path
 
-#### 6.5 Information Transmission Efficiency
-The Photon Sphere uses wave parallelism — multiple light channels transmit data simultaneously. The transmission efficiency coefficient is:
-\[
-\eta_{trans} = \frac{P_{useful}}{P_{input}} = 0.97
-\]
-Losses occur only due to reflections and diffraction as light transitions between layers. Thus, the Photon Sphere demonstrates 1000 times greater energy efficiency than traditional silicon processors.
+Near‑absence of heat generation. Cooling: IR radiation to ambient, convection in frame micro‑channels, controlled mirror albedo. Peak temperatures **< 40°C**.
 
-#### 6.6 Energy Self-regulation
-Each cluster can adapt its energy consumption depending on the incoming data flow. When the load decreases, the laser emission decreases, and when the load increases, it is automatically compensated for. This ensures a balance between performance and longevity.
+### 6.4 Comparative Efficiency (estimates)
 
-💡 The Photon Sphere is not just a computational system; it is a self-sustaining organism capable of operating for years without external power, retaining and processing energy within itself.
+| Parameter      | GPU (2025) |          TPU v5 |     Photon Sphere |
+| -------------- | ---------: | --------------: | ----------------: |
+| Energy per MAC |     100 pJ |           10 pJ |        **0.1 pJ** |
+| Ops density    |     10¹²/s |          10¹³/s |        **10¹⁵/s** |
+| Power draw     |      300 W |           200 W |         **<10 W** |
+| Heat           |       High |          Medium |       **Minimal** |
+| Cooling need   |  Mandatory |       Mandatory |  **Not required** |
+| Compute type   | Electronic | Electro‑optical | **Pure photonic** |
+
+### 6.5 Transfer Efficiency
+
+(\eta_{trans} = P_{useful}/P_{input} \approx 0.97). Dominant losses: reflections/diffraction at boundaries.
+
+### 6.6 Self‑Regulation
+
+Emitter intensity adapts to load → balanced performance and longevity.
+
+> **Conclusion:** a self‑sustaining photonic organism that can operate for years, storing energy internally and converting it to information.
 
 ---
 
-### Part 7 — Prototyping and Implementation
+## Part 7 — Prototyping and Implementation
 
-#### 7.1 Prototype Goal
-The prototype is created to demonstrate the principles of photon interaction between layers and clusters. Even two nested spheres can reproduce the basic model of bidirectional light transmission, feedback, and coherent interaction.
+### 7.1 Goals
 
-Prototype tasks:
-- Demonstrate stable light signal transmission between layers
-- Test the laser and receiver synchronization algorithm
-- Test feedback and interference effects
+Demonstrate inter‑layer transfer, synchronization, and optical feedback. Even **two nested layers** suffice to reproduce the core behavior.
 
-#### 7.2 Materials and Equipment
-For creating the prototype, basic available components are sufficient:
+### 7.2 Materials & Equipment (example)
 
-| Component                  | Purpose                        | Example Source               |
-|----------------------------|--------------------------------|------------------------------|
-| 3D printed spheres (PLA or PETG) | Frame and cluster mounting      | Creality / Anycubic 3D Printer |
-| CD/DVD/Blu-Ray lasers       | Light sources                   | Extracted from old drives    |
-| Photodiodes BPW34 or similar | Light reception                 | Mouser / AliExpress          |
-| Arduino Mega / ESP32        | Control and synchronization     | Any microcontroller platform |
-| PWM drivers (e.g., TLC5940) | Laser power control             | Mouser / Digikey             |
-| Optical lenses and filters  | Focusing and splitting waves    | Edmund Optics / Thorlabs     |
-| Power supply 5V / 3A        | System power                    | Standard PSU                 |
+* 3D‑printed shells (PLA/PETG) — frames
+* CD/DVD/Blu‑ray lasers — light sources
+* BPW34 photodiodes — receivers
+* Arduino Mega / ESP32 — control
+* PWM drivers (TLC5940) — laser power
+* Lenses/filters — optics
+* 5 V / 3 A PSU — supply
 
-#### 7.3 Configuration and Layout
-For the basic experiment, a two-sphere configuration is used:
-- Outer sphere: reception and re-emission
-- Inner sphere: generation and modulation
+### 7.3 Layout (2‑layer demo)
 
-The spheres are positioned coaxially with a gap of 2-3 mm. Each sphere has 12 clusters (at the vertices of pentagons). Radial optical channels are created between them. The control system is connected to each laser and photodiode. Data transmission occurs via a serial bus (I²C or SPI), and synchronization is done using a common reference timer from Arduino.
+* Outer shell: reception & re‑emission
+* Inner shell: generation & modulation
+* 2–3 mm gap, ~12 clusters (pentagon vertices) per shell. Radial channels between them. Shared reference timer; I²C/SPI for control.
 
-#### 7.4 Working Principle of the Prototype
-1. The inner sphere emits coherent light pulses.
-2. The outer sphere receives the signal, records its intensity, and reflects it back.
-3. The receivers of the inner sphere analyze the phase and delay of the reflected signal.
-4. The controller adjusts the frequency and power of the lasers to achieve a coherent state.
+### 7.4 Operating Principle
 
-With correct setup, stable resonance appears, visibly manifested as a constant glow and interference fringes.
+1. Inner emits coherent pulses. 2) Outer records intensity and reflects back. 3) Inner analyzes phase/latency. 4) Controller tunes frequency/power to reach coherent regime.
 
-#### 7.5 Assembly Steps
-1. Print the spheres: two hemispheres of outer and inner radii (10 cm and 5 cm).
-2. Mount the lasers and receivers at the vertices of the pentagons and hexagons.
-3. Solder wires and connect to Arduino.
-4. Program synchronization using PWM library and reference timer.
-5. Phase alignment using photodiodes and oscilloscope.
+**Signatures:** steady glow and visible interference fringes.
 
-#### 7.6 Experimental Observations
-Upon activating the prototype, the following are observed:
-- Stable interference patterns
-- Phase stabilization within 1-2 seconds
-- Feedback upon reflection from the outer sphere
-- Gradual alignment of laser intensities
+### 7.5 Build Steps
 
-These effects confirm the possibility of building a coherent network based on optical principles.
+1. Print hemispheres (10 cm and 5 cm radii). 2) Mount lasers/receivers. 3) Wire & connect MCU. 4) Program PWM/timers. 5) Phase‑tune via photodiodes/oscilloscope.
 
-#### 7.7 Scaling
-To transition from 2 to 3-5 spheres, it is necessary to:
-- Add intermediate spheres with the same clusters
-- Synchronize emitters by phase through a central generator
-- Ensure stable power and thermal control
+### 7.6 Observations
 
-Further scaling (up to 10 spheres) is possible after transitioning to integrated photonics technology (InP, SiN) with micro-scale precision.
+Persistent interference; phase lock in ~1–2 s; strong feedback; gradual intensity equalization.
 
-💡 Even a simple 2-sphere prototype demonstrates the principles of coherent transmission, feedback, and self-organization of photon-based systems — a step from the model to living photon-based intelligence.
+### 7.7 Scaling Up
+
+Add intermediate shells; global phase sync; power/thermal management. For 3–10 layers move to integrated photonics (InP, SiN).
 
 ---
 
-### Part 8 — Scaling and Industrial Application
+## Part 8 — Scaling and Applications
 
-#### 8.1 Scaling Principle
-Muntyan’s Photon Sphere can scale from laboratory prototypes to industrial computing systems, maintaining key advantages — coherence, energy efficiency, and self-organization.
+### 8.1 Scaling Principle
 
-Scaling is achieved in two ways:
-1. **Geometric scaling** — increasing the number of spheres and clusters
-2. **Technological scaling** — transitioning from the macro level (3D-printed spheres) to the micro level (integrated photonics)
+From lab prototypes to industrial systems while preserving coherence, energy efficiency, and self‑organization.
 
-#### 8.2 Geometric Scaling
-Each new level increases the number of nodes by approximately 3.6 times and the interaction area by 4 times. The ratio of radii remains the same:  
-\[
-r_{n+1} = 2r_n
-\]
-Thus, with 10 layers, the total number of clusters can reach 10⁸–10⁹, comparable to the number of synapses in the human brain.
+### 8.2 Geometric Scaling
 
-#### 8.3 Technological Scaling
-For industrial-level application, integrated photonics methods are used:
-- Silicon nitride (SiN), indium phosphide (InP), or sapphire platforms
-- Planar waveguides for light direction control
-- Micro-resonators and semi-transparent layers for signal focusing
-- CMOS-compatible manufacturing for mass production
+(r_{n+1} = 2r_n). Node count grows ~**3.6×** per level; area ~**4×**. With ~10 layers the total reaches **10⁸–10⁹ clusters**.
 
-This will allow the entire system, with tens of millions of clusters, to fit on a chip with a diameter of 10-20 cm and a height of less than 1 cm.
+### 8.3 Technological Scaling
 
-#### 8.4 Industrial and Research Applications
-| Field                | Application                                | Effect                         |
-|----------------------|--------------------------------------------|--------------------------------|
-| Artificial Intelligence | Neural network accelerators, autonomous AI systems | 100–1000× less energy for the same power |
-| Scientific Simulations | Molecular modeling, climate, astrophysics  | Parallel computations in optical fields |
-| Quantum Interfaces    | Optical connection of quantum nodes        | Minimal photon transmission losses |
-| Data Centers         | Energy-efficient photon-based data centers | Significant reduction in heat dissipation |
+InP/SiN/sapphire platforms; planar waveguides; micro‑resonators; semi‑transparent layers; **CMOS‑compatible** fabrication. Tens of millions of clusters on a **10–20 cm** wafer **<1 cm** thick.
 
-#### 8.5 Economic and Environmental Efficiency
-- 99% reduction in energy consumption compared to electronics
-- Minimal requirements for cooling and infrastructure
-- Potential for autonomous operation in confined environments (underwater, in space)
-- Longevity of optical components — 10⁶ hours of operation
+### 8.4 Industrial & Research Directions
 
-#### 8.6 Future Prospects
-Muntyan's Photon Sphere is a step towards creating self-organizing computing systems capable of coherent processing and storing information without electronic limitations.
+* **AI accelerators & autonomous AI:** **100–1000×** energy savings at comparable performance
+* **Scientific simulation:** molecules, climate, astrophysics — parallel optical fields
+* **Space systems:** vacuum operation without cooling; radiation tolerance
+* **Quantum interfaces:** low‑loss optical links between quantum nodes
+* **Data centers:** photonic racks with drastically reduced heat
 
-The future may see the integration of such spheres in hybrid AI architectures, quantum computers, and distributed networks.
+### 8.5 Economics & Ecology
+
+~**99%** energy reduction vs electronics; minimal cooling/infrastructure; autonomous operation in sealed environments (underwater, space); optical components rated **>10⁶ hours**.
+
+### 8.6 Outlook
+
+Hybrid AI/quantum architectures; distributed networks of photonic spheres.
+
+> **Starter prototype:** 2–3 layers printed in 3D with optical inserts; Arduino + LEDs/lasers; budget ~**$500**.
 
 ---
 
-### Part 9 — Ethical and Legal Aspects
+## Part 9 — Ethics and IP
 
-#### 9.1 Principles of Responsible Use
-The Photon Sphere is a research and technological concept designed for peaceful use in science, education, and the development of energy-efficient computing systems. The primary goal is to advance safe technologies for the future and to understand the fundamental principles of light and information interaction.
+### 9.1 Responsible Use
 
-#### 9.2 Prohibited Use Cases
-The principles and technologies described in this document must not be used for:
-- Developing weapons of any type
-- Engaging in military actions or surveillance of people
-- Interfering with biological or cognitive processes of humans without their consent
-- Harming nature, ecosystems, or the environment
-- Destabilizing social systems or infrastructures
+For peaceful research/education and energy‑efficient computing.
 
-Any use contrary to these principles contradicts the original intention and philosophy of the project.
+### 9.2 Prohibited Uses
 
-#### 9.3 Copyright and Intellectual Property
-Author: Fyodor Alekseevich Muntyan © 2025  
-muntyan-photonics.su  
-github.com/ispolkom/muntyan-photonics.su  
-All rights reserved under international copyright agreements.  
-Any reproduction, distribution, or modification of the project materials is allowed only with attribution to the author and a link to the official website:  
-https://muntyan-photonics.su  
-Documents and images are part of the author's intellectual property. Commercial use is only allowed with written consent.
+Weapons; warfare/surveillance; interference with human cognition without consent; harm to nature/ecosystems; destabilization of civil infrastructure.
 
-#### 9.4 Non-commercial Use
-The materials and principles of the project are freely available for:
-- Educational purposes
-- Scientific publications and research
-- Experiments not related to profit generation
+### 9.3 Copyright & IP
 
-It is mandatory to keep the source link and author's name intact.
-
-#### 9.5 Commercial Use and Author Participation
-In case of commercial application of the principles and ideas of Muntyan's Photon Sphere, part of the profit (as agreed upon by both parties) will be directed to the author or their successors. This ensures that the author's contribution is preserved and supports the future development of the technology.
-
-#### 9.6 Language Version Priority
-This document exists in two languages — Russian and English. In case of discrepancies between versions, the Russian original takes precedence.
-
-#### 9.7 Ethical Principle of the Project
-The Photon Sphere was created as a symbol of the synthesis of light, knowledge, and humanity. Any application of its principles must benefit the world, people, and future generations.
+Author: **Fyodor Alekseyevich Muntyan (© 2025)**
+muntyan-photonics.su
+github.com/ispolkom/muntyan-photonics.su
+Any copying/distribution/modification requires attribution and link to the official site. Commercial use requires prior written consent. In case of discrepancies, the **Russian version prevails**.
 
 ---
 
-### Additions — Quantum Layer and AR/VR
+### Addenda — Quantum Layer & AR/VR
 
-#### Quantum Dots Integration (QDs)
-Quantum dots as carriers of local states and metastable memory: phase/frequency fixation and the role of quantum registers for a hybrid "quantum computing layer." Integration through spectrally separated channels and micro-resonators.
-
-#### AR/VR — "Optical Brains"
-Spheres as controlling fields of light for immersive worlds with minimal energy consumption and real-time response.
+* **Quantum dots (QDs):** localized states & metastable memory; role of quantum registers in a hybrid “quantum layer”; integration via spectrally separated channels and micro‑resonators.
+* **AR/VR:** “optical brains” for immersive worlds with minimal power and true real‑time response.
 
 ---
 
-### FAQ
+## FAQ
 
-**Q: How to integrate with existing AI systems?**  
-**A:** Through optical interfaces and photon interconnections (in line with industry research on silicon photonics). Connection — waveguides/optical fibers and optoelectronic bridges to GPUs/TPUs, optical packet exchange.
-
+**How do we interface with existing AI systems?**
+Via photonic interconnects (silicon photonics): waveguides/fiber and opto‑electronic bridges to GPUs/TPUs; exchange of optical packets.
