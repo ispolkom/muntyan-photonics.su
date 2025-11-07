@@ -29,7 +29,7 @@
 
 #### Запрещено:
 
-* Коммерческое использование без письменного разрешения автора.
+* Коммерческое использование без письменного разрешения автора или его правопреемников (наследников)
 * Изменение названия, концепции или сокрытие авторства.
 * Использование в проектах, нарушающих гуманитарные принципы.
 
@@ -64,7 +64,7 @@ This project is released under:
 
 #### Prohibited:
 
-* Commercial use without explicit written permission.
+* Commercial use without written consent of the author or their legal successors (heirs)
 * Distortion, renaming, or removal of authorship.
 * Use for purposes contrary to humanitarian and scientific ethics.
 
