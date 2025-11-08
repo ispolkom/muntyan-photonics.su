@@ -76,11 +76,11 @@ can coexist in harmony — as one continuum of energy and meaning.
 
 ---
 
-# 🌌 Фотонная Сфера Мунтяна  
+# Фотонная Сфера Мунтяна  
 ### Манифест нейрофотонных вычислений  
 © 2025 Фёдор Алексеевич Мунтян  
-🌐 https://muntyan-photonics.su  
-💾 https://github.com/ispolkom/muntyan-photonics.su  
+https://muntyan-photonics.su  
+https://github.com/ispolkom/muntyan-photonics.su  
 
 ---
 
