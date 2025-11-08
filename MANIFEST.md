@@ -1,8 +1,8 @@
-# 🌌 Muntyan’s Photon Sphere  
+# Muntyan’s Photon Sphere  
 ### Manifest of Neuro-Photonic Computation  
 © 2025 Fyodor Alekseyevich Muntyan  
-🌐 https://muntyan-photonics.su  
-💾 https://github.com/ispolkom/muntyan-photonics.su  
+https://muntyan-photonics.su  
+https://github.com/ispolkom/muntyan-photonics.su  
 
 ---
 
