@@ -67,8 +67,8 @@ Light exits → the sphere *develops and interprets* the result.
 
    **Русская версия (описание)** — [docs/ru.md](docs/ru.md)  
    **English version (description)** — [docs/en.md](docs/en.md)  
-   **Теория (RU)** — [docs/THEORY_RU.md](docs/THEORY_RU.md)  
-   **Theory (EN)** — [docs/THEORY_EN.md](docs/THEORY_EN.md)  
+   **Теория (RU)** — [docs/THEORY_RU.md](/THEORY_RU.md)  
+   **Theory (EN)** — [docs/THEORY_EN.md](/THEORY_EN.md)  
    **Манифест / Manifest** — [MANIFEST.md](MANIFEST.md)
 
 ---
