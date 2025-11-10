@@ -1,14 +1,14 @@
-# 🧠 Фотонная Сфера Мунтяна / Muntyan’s Photon Sphere
+# Фотонная Сфера Мунтяна / Muntyan’s Photon Sphere
 
 ## Документ об интеллектуальном праве / Intellectual Property Statement
 
 © 2025 **Фёдор Алексеевич Мунтян** / **Fyodor Alekseyevich Muntyan**
-🌐 [https://muntyan-photonics.su](https://muntyan-photonics.su)
-💾 [https://github.com/ispolkom/muntyan-photonics.su](https://github.com/ispolkom/muntyan-photonics.su)
+ [https://muntyan-photonics.su](https://muntyan-photonics.su)
+ [https://github.com/ispolkom/muntyan-photonics.su](https://github.com/ispolkom/muntyan-photonics.su)
 
 ---
 
-## 🇷🇺 Русская версия
+## Русская версия
 
 ### 1. Авторство и приоритет
 
@@ -43,7 +43,7 @@
 
 ---
 
-## 🇬🇧 English Version
+## English Version
 
 ### 1. Authorship and Priority
 
@@ -81,11 +81,11 @@ The **Russian version** of this document is legally authoritative.
 ## ✉ Контакты / Contact
 
 Автор / Author: **Фёдор Алексеевич Мунтян / Fyodor A. Muntyan**
-📧 [muntyan@muntyan-photonics.su](mailto:muntyan@muntyan-photonics.su)
-🌐 [https://muntyan-photonics.su](https://muntyan-photonics.su)
+ [muntyan@muntyan-photonics.su](mailto:muntyan@muntyan-photonics.su)
+ [https://muntyan-photonics.su](https://muntyan-photonics.su)
 
 ---
 
-> 💡 «Это не о владении — а о передаче света знаний.» / “This work is not about possession — it is about sharing the light of knowledge.”
+>  «Это не о владении — а о передаче света знаний.» / “This work is not about possession — it is about sharing the light of knowledge.”
 
 **Версия / Version:** 1.1 — обновлено для двуязычного использования.
