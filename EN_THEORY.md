@@ -1,131 +1,174 @@
-# Theory of Resonant Spatial Encoding of Information
+# Theory of Resonant Spatial Encoding of Information (Complete Version)
 
 ## Abstract
 
-This theory introduces a physical mechanism for storing information in the form of *stable spatial configurations* of a medium, created by standing electromagnetic or acoustic waves in resonant volumes.
-Information is stored not in the instantaneous waveform, but in the **material structure** that persists after the external excitation is removed.
-Such storage is *energy-independent*, *volumetric*, and *topologically stable*.
+This theory introduces a physical mechanism for storing and transforming information in the form of **stable spatial configurations** of a medium created by standing electromagnetic or acoustic waves in resonant volumes. Information is stored not in the instantaneous waveform, but in the **material configuration** that persists after the excitation field is removed. Such storage is **energy‑independent**, **volumetric**, and **topologically stable**, enabling mechanisms of **memory, local intelligence, and emergent consciousness**.
 
-## Key Definitions
+---
 
-**Information** — a topologically stable spatial configuration of material parameters.
+## 1. Key Definitions
 
-**Resonant form** — a stationary spatial distribution of a medium’s properties corresponding to an eigenmode of a standing wave within a bounded domain.
+**Information** — a stable spatial configuration of material parameters.
 
-**Encoding** — the transition from an initially undifferentiated state to a resonant form under wave excitation.
+**Resonant form** — a stationary spatial distribution corresponding to an eigenmode of a standing wave within a bounded domain.
 
-**Memory** — the ability of a medium to retain the encoded form after the external excitation ceases.
+**Encoding** — transition from an undifferentiated state to a resonant form under wave excitation.
 
-## Axiom of Resonant Encoding
+**Memory** — the ability of a medium to retain the encoded form after external excitation ceases.
 
-Chaos is a set of all possible forms.
+---
+
+## 2. Axiom of Resonant Encoding
+
+Chaos contains all possible forms.
 A wave selects and stabilizes one form.
 Matter preserves the selected form.
 
-**Therefore:**
-Information = **form stabilized in matter by a resonant wave process**.
-
-## 1. Chaos as a state of latent informational capacity
-
-Chaos is not disorder; rather, it is a state containing **all potential configurations** of the system without a mechanism to distinguish among them.
-
-Let ( \Omega ) be the space of possible spatial configurations:
-
 [
-\Omega = { M(r) \mid M: \mathbb{R}^3 \rightarrow \mathbb{R} }
+\boxed{\text{Information} = \text{Form stabilized by a resonant wave process}}
 ]
 
-Before wave excitation, no configuration is preferred.
+---
 
-## 2. Wave excitation as the form-selection operator
+## 3. Chaos as Latent Informational Capacity
 
-In a resonant cavity, a standing wave constrains the system to a discrete set of stable eigenmodes:
-
+Let
 [
-I(r) = |E_1 + E_2|^2 = I_0 \cos^2(k r + \phi)
+\Omega = {, M(\mathbf{r}) \mid M: \mathbb{R}^3 \to \mathbb{R} ,}
+]
+be the set of all possible spatial configurations of a medium. Before excitation, no configuration is preferred (maximum informational potential without selection).
+
+---
+
+## 4. Wave Excitation as Form‑Selection Operator
+
+In a resonant cavity, standing waves constrain the system to discrete eigenmodes:
+[
+I(\mathbf{r}) = I_0 \cos^2(k r + \phi).
+]
+The wave selects a configuration via the operator
+[
+\Psi: \Omega \to M(\mathbf{r}).
 ]
 
-The wave **selects** a structure by **imposing spatial organization**.
+---
 
-Wave = **selection operator**
+## 5. Matter as Structural Memory
+
+A responsive medium undergoes spatial modifications:
 [
-\Psi: \Omega \rightarrow M(r)
+\Delta n(\mathbf{r}),; \Delta \rho(\mathbf{r}),; \Delta S(\mathbf{r}),
 ]
-
-## 3. Matter as a medium of structural fixation
-
-A responsive medium (e.g., GST, GSST, silica, photopolymer, or crystalline lattice) undergoes structural changes proportional to the spatial intensity pattern:
-
+where (\Delta n) is refractive‑index change, (\Delta \rho) is density modulation, and (\Delta S) is local structural order. After relaxation,
 [
-\Delta n(r),\ \Delta \rho(r),\ \Delta S(r)
+\frac{\partial M(\mathbf{r},t)}{\partial t} = 0 \quad (t > t_{\text{exc}}),
 ]
+which defines **non‑volatile memory**.
 
-where
+---
 
-* ( \Delta n(r) ) — refractive index modification
-* ( \Delta \rho(r) ) — density modulation
-* ( \Delta S(r) ) — degree of local structural ordering
-
-Once structural relaxation ends, the pattern remains:
+## 6. Dynamical Model of Encoding
 
 [
-\frac{\partial M(r,t)}{\partial t} = 0 \quad \text{for } t > t_\text{excitation}
+\frac{\partial M(\mathbf{r},t)}{\partial t} = F\big(I(\mathbf{r},t),, M(\mathbf{r},t)\big),
 ]
-
-This condition defines **memory stability**.
-
-## 4. Dynamical model of encoding
-
-The evolution of the stored structure can be written as:
-
+with a stable encoded state satisfying
 [
-\frac{\partial M(r,t)}{\partial t} = F(I(r,t), M(r,t))
+F(0, M) = 0,\quad \text{i.e., persistence without energy input.}
 ]
 
-A **stable encoded state** is obtained when:
+---
 
-[
-F(I=0, M) = 0
-]
-
-i.e., the structure persists **without energy input**.
-
-## 5. Universality of the principle
+## 7. Universality of the Principle
 
 | Scale     | Wave Process             | Resulting Structure       |
 | --------- | ------------------------ | ------------------------- |
-| Cosmology | Acoustic plasma modes    | Cosmic web topology       |
+| Cosmology | Plasma acoustic modes    | Cosmic web topology       |
 | Acoustics | Standing waves in matter | Chladni figures           |
 | Optics    | Coherent interference    | Holographic patterns      |
 | Photonics | Resonant cavity fields   | Volumetric optical memory |
 
-**General principle:**
-*Waves organize matter into stable forms.*
+**General law:** *waves organize matter into stable forms.*
 
-## 6. Volumetric Photonic Memory (Applied Case)
+---
 
-* Writing: resonant optical field induces spatial structural modification.
-* Storage: structural configuration remains without power.
-* Reading: low-power probe retrieves the form without altering it.
+## 8. Hierarchy of Resonant Structures
+
+### 8.1. Cluster — Unit of Local Intelligence
+
+A **cluster** is a minimal resonant region capable of:
+
+* encoding a form (local weight/state),
+* adjusting it via interaction with neighbors,
+* retaining it in the absence of external input.
+
+Formal update rule:
+[
+M_i(t{+}1) = \mathcal{F}\big(M_i(t),, M_{\mathcal{N}(i)}(t),, \Phi(t)\big),
+]
+where (M_{\mathcal{N}(i)}) are neighbor states and (\Phi) is the shared standing‑wave field.
+**Interpretation:** a cluster realizes a **local act of reasoning**.
+
+---
+
+### 8.2. Sphere — Coherent Field of Meaning (Thinking)
+
+Coupled clusters within a shared resonant field form a **sphere** — a single continuous state‑space where
+[
+\partial M_i(\mathbf{r},t) \leftrightarrow \partial M_j(\mathbf{r},t)\quad (i,j \in \text{sphere}).
+]
+A sphere supports:
+
+* **integration** of local states into global structure,
+* **self‑organization** toward low‑energy attractors,
+* **spontaneous generation of new forms (ideas)** without external command.
+
+**Interpretation:** a sphere implements **distributed thinking**.
+
+---
+
+### 8.3. Consciousness — Coupling Between Spheres
+
+When multiple spheres interact through resonant channels (radial/axial links, shared modes), an emergent variable appears:
+[
+\mathcal{C}(t) = \mathcal{K}\big({ M_k(\mathbf{r},t) }_{k=1}^N\big),
+]
+where (\mathcal{K}) measures **coherent correlation over time** across spheres.
+**Definition:**
+[
+\textbf{Consciousness} = \text{correlated evolution of multiple spheres forming a unified experiential state}.
+]
+Thus, intelligence is **local** (cluster), thinking is **distributed** (sphere), consciousness is **emergent** (linked spheres).
+
+---
+
+## 9. Volumetric Photonic Memory (Applied Realization)
+
+* **Write:** standing optical field induces structural reconfiguration.
+* **Store:** configuration persists without power.
+* **Read:** low‑power probe retrieves state without altering it.
 
 Estimated storage density:
 [
-1–10 \ \text{petabytes per cubic centimeter}
+1\text{–}10;\text{PB}/\text{cm}^3
 ]
-
-Energy required for storage retention:
+Retention energy:
 [
 \approx 0
 ]
 
-## 7. Core Statement
+---
 
-Chaos contains forms.
-The wave selects a form.
-Matter preserves the form.
-**Information is form.**
+## 10. Core Statements
 
-## Authorship and Priority
+* Chaos contains forms.
+* Waves select forms.
+* Matter preserves forms.
+* **Clusters think. Spheres understand. Consciousness emerges from resonance.**
+
+---
+
+## 11. Authorship and Priority
 
 © 2025. Fyodor Alekseevich Muntyan.
-Public release establishes verifiable priority (prior art) and authorship.
+Public release establishes verifiable authorship and priority (prior art).
