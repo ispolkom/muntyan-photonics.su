@@ -84,4 +84,4 @@ with an **anti-patent-capture clause** and **restriction on commercial use**
 without written permission from the author **or their legal successors (heirs).**
 
 © 2025 **Фёдор Алексеевич Мунтян** / **Fyodor Alekseyevich Muntyan**  
-См. лицензию: `LICENSE.md`
+См. лицензию: [LICENSE.md](LICENSE.md)
