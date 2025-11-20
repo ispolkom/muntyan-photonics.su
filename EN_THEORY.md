@@ -170,5 +170,5 @@ Retention energy:
 
 ## 11. Authorship and Priority
 
-© 2025. Fyodor Alekseevich Muntyan.
+© 2025. Feodor Alekseevich Muntyan.
 Public release establishes verifiable authorship and priority (prior art).
