@@ -1,4 +1,4 @@
-# Theory of Resonant Spatial Encoding of Information (Complete Version)
+# Theory of Resonant Spatial Encoding of Information
 
 ## Abstract
 
